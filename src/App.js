@@ -8,13 +8,17 @@ function App() {
   return (
    
     <main className="container">
-      <Link to="/books">BOOKS!</Link>
-      <h1>Library Catalog?</h1>
+      
+      <h1>Alchemy Library Catalog</h1>
+      <h2>Click for books!</h2>
+      <Link to="/books">Book Collection</Link>
       <Switch> 
        
        
         <Route path="/books:id" component={ BookDetail } />
         <Route path="/books" component={ BookList } />
+      
+       
         
       </Switch> 
     </main>
