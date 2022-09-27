@@ -5,12 +5,12 @@ import { useParams } from 'react-router-dom';
 function BookDetail() {
   //
   const { id } = useParams();
-  const { book, loading, error } = useBookDetail(id);
+  const { book, loading, error } = useBookDetail({ id });
 
   if (error)
     return (
       <>
-        <h1>Something went wrong :(</h1> <h2>{error}</h2>
+        <h1>Something went wrong here:(</h1> <h2>{error}</h2>
       </>
     );
 
