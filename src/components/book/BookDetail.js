@@ -16,7 +16,12 @@ function BookDetail() {
 
   if (loading) return <h3>Loading book...</h3>;
 
-  return <Book book={book} showDetail />;
+  return (
+    <main>
+      
+      <Book book={book} showDetail />
+    </main>
+  );
 }
 
 export default BookDetail;

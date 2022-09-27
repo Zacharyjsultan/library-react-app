@@ -14,11 +14,8 @@ function App() {
        
        
         <Route path="/books:id" component={ BookDetail } />
-        <Route path="/books:id" component={ BookList } />
-
-    
+        <Route path="/books" component={ BookList } />
         
-
       </Switch> 
     </main>
 
