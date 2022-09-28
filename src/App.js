@@ -15,10 +15,9 @@ function App() {
       <Switch> 
        
        
-        <Route path="/books:id" component={ BookDetail } />
-        <Route path="/books" component={ BookList } />
+        <Route path="/books/:id" component={BookDetail} />
+        <Route path="/books" component={BookList} />
       
-       
         
       </Switch> 
     </main>

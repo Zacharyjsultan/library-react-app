@@ -20,7 +20,7 @@ function Book({
           <p>ISBN: {isbn}</p>
           <p>Published {publishedDate}</p>
           <p>{totalPages} pages</p>
-          <Link to={`/books`}>Books</Link>
+          <Link to={`/books/:id`}>Books</Link>
         </>
       )}
     </article>
