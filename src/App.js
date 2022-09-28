@@ -12,6 +12,7 @@ function App() {
       <h1>Alchemy Library Catalog</h1>
       <h2>Click for books!</h2>
       <Link to="/books">Book Collection</Link>
+      
       <Switch> 
        
        
